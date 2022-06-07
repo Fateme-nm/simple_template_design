@@ -1,0 +1,212 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'iranSansLight';
+    src: url('../fonts/IRANSansWeb_Light.woff')
+}
+
+@font-face {
+    font-family: 'iranSans';
+    src: url('../fonts/IRANSansWeb.woff');
+}
+
+body {
+    margin: 0;
+    color: rgb(88, 88, 88);
+    font-family: 'iranSansLight';
+}
+
+.header {
+    border-top: 10px solid rgb(8, 146, 8);
+    z-index:-1;
+    box-shadow: 0px 0px 3px 1px #cfcfcf;
+    padding: 0 10% 0 0;
+    font-size: 0.75rem;
+    width: 100%;
+}
+
+.logo, .navbar,.item {
+    display: inline-block;
+}
+
+.logo {
+    vertical-align: middle;
+}
+
+.navbar {
+    width: calc(100% - 130px);
+    padding-top: 0.6rem;
+    vertical-align: middle;
+    text-align: right;
+}
+
+@media (max-width: 28rem) {
+    .navbar {
+        width: 100%;
+    }
+}
+
+.items {
+    margin-top: 0;
+    padding-right: 1rem;
+}
+
+.item {
+    display: inline-block;
+    margin: 0 1rem;
+    text-decoration: none;
+    color: rgb(88, 88, 88);
+}
+
+@media (max-width: 43.75rem) {
+    .item {
+        margin-top: 1rem;
+    }
+}
+
+.myShop {
+    background-color: rgb(8, 146, 8);
+    width: 7.5rem;
+    padding: 0.5rem 0.6rem;
+    margin: auto 45% auto 0;
+    z-index:-1;
+    box-shadow: 0px 0px 2px 1px #cfcfcf;
+}
+
+@media (max-width: 65rem) {
+    .myShop {
+        margin-right: 0;
+        padding: 0.2rem 0.6rem;
+    }
+}
+
+@media (max-width: 44rem) {
+    .myShop {
+        margin-top: 1rem;
+    }
+}
+
+.green {
+    background-color: rgb(139, 196, 139);
+    margin-right: 0.3rem;
+    padding: 0.2rem 0.6rem;
+}
+
+.green, .myShop {
+    border-radius: 1.8rem;
+    color: white;
+    text-align: center;
+}
+
+.features {
+    padding-bottom: 1.8rem;
+}
+
+.features-head {
+    text-align: center;
+    margin-top: 0.3rem;
+}
+
+.features-list {
+    text-align: center;
+    padding-top: 0.5rem;
+}
+
+.feature {
+    display: inline-block;
+    width: 30vw;
+}
+
+@media (max-width: 27rem) {
+    .feature {
+        width: 50vw;
+    }
+}
+
+.feature-img {
+    background-color: rgb(255, 207, 50);
+    width: 7.5rem;
+    height: 7.5rem;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.feature-img img {
+    padding-top: 1.8rem;
+}
+
+.feature p {
+    text-align: center;
+    font-size: 1rem;
+}
+
+.places {
+    background-color: rgb(238, 241, 241);
+    padding-bottom: 2rem;
+}
+
+.places-head {
+    text-align: center;
+    padding-top: 1.8rem;
+    color: rgb(8, 146, 8);
+}
+
+.places-head, .features-head {
+    font-size: 1.25rem;
+    font-family: 'iranSans';
+}
+
+.places-list {
+    text-align: center;
+}
+
+.place {
+    display: inline-block;
+    width: 15vw;
+    background-color: white;
+    border-radius: 0.5rem;
+    margin: 1.25rem 1.8rem;
+    z-index:-1;
+    box-shadow: 0px 1px 2px 1px #cccccc;
+    border-bottom: 8px solid white;
+}
+
+@media (max-width: 45.5rem) {
+    .place {
+        width: 30vw;
+    }
+}
+
+@media (max-width: 26.5rem) {
+    .place {
+        width: 50vw;
+    }
+}
+
+.place:hover {
+    border-color: rgb(8, 146, 8);
+}
+
+.place-img {
+    width: 5rem;
+    height: 5rem;
+    margin: auto;
+}
+
+.places-list a {
+    text-decoration: none;
+    color: rgb(8, 146, 8);
+}
+
+.place-img img {
+    padding-top: 1.8rem;
+}
+
+.place p {
+    text-align: center;
+    font-size: 1rem;
+}
+
+
